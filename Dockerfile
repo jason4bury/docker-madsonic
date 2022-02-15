@@ -3,8 +3,8 @@ FROM alpine:edge
 # Madsonic Package Information
 ENV PKG_NAME     madsonic
 ENV PKG_VER      7.0
-ENV PKG_BUILD    10390
-ENV PKG_DATE     20190510
+ENV PKG_BUILD    10400
+ENV PKG_DATE     20220120
 ENV PKG_FILENAME ${PKG_DATE}_${PKG_NAME}-${PKG_VER}.${PKG_BUILD}-standalone.tar.gz
 
 ENV PUID="${PUID:-1000}"
